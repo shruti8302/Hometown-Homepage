@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.top-container{
+    background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/08/05101623/Untitled-design-2022-08-05T101607.456-1600x900.jpg?tr=w-1920");
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.header{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.head-title{
+    font-size: 80px;
+}
+.head-text{
+    font-size: 30px;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 50px;
+    padding: 0 px 20px 20px;
+}
+.card img{
+    height: 150px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+h3{
+    padding-bottom: 20px;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.bottom-container{
+    display: flex;
+    margin: auto auto;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 8px solid skyblue;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.bottom-container img{
+    margin-top: 30px;
+    height: 150px;
+    width: 165px;
+    border-radius: 10px;
+}
+
+.guide{
+    padding: 20px;
+}
+.guide h4{
+    padding-top: 15px;
+    font-weight: bold;
+}
